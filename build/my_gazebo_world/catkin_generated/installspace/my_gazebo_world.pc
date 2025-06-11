@@ -1,0 +1,8 @@
+prefix=/home/anton202/slam_study/install
+
+Name: my_gazebo_world
+Description: Description of my_gazebo_world
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

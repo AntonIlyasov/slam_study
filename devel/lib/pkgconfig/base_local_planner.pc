@@ -1,0 +1,8 @@
+prefix=/home/anton202/slam_study/devel
+
+Name: base_local_planner
+Description: Description of base_local_planner
+Version: 1.17.3
+Cflags: -I/home/anton202/slam_study/devel/include -I/home/anton202/slam_study/src/navigation/base_local_planner/include
+Libs: -L${prefix}/lib -lbase_local_planner -ltrajectory_planner_ros
+Requires: angles costmap_2d dynamic_reconfigure geometry_msgs message_runtime nav_core nav_msgs pluginlib roscpp sensor_msgs std_msgs tf2 tf2_ros voxel_grid
