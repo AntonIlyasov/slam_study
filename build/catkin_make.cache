@@ -1,2 +1,2 @@
-my_gazebo_world:navigation/amcl:navigation/base_local_planner:navigation/carrot_planner:navigation/clear_costmap_recovery:navigation/costmap_2d:navigation/dwa_local_planner:navigation/fake_localization:navigation/global_planner:navigation/map_server:navigation/move_base:navigation/move_slow_and_clear:navigation/nav_core:navigation/navfn:navigation/navigation:navigation/rotate_recovery:navigation/voxel_grid:new_world:tb3_nav
+my_gazebo_world:new_world:tb3_nav
 -DCATKIN_DEVEL_PREFIX=/home/anton202/slam_study/devel -DCMAKE_INSTALL_PREFIX=/home/anton202/slam_study/install -G Unix Makefiles
